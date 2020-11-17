@@ -75,8 +75,6 @@ function equal() {
     }
 }
 const operate = (operator, a, b) => operator == '+' ? add(a, b) : operator == '−' ? subtract(a, b) : operator == '×' ? multiply(a, b) : divide(a, b);
-
-
 function inputFromKeyboard(e) {
     keyName = e.key;
     if (keyName == "Enter") keyName = "=";
